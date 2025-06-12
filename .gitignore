@@ -1,0 +1,14 @@
+# Ignora dependências
+node_modules/
+
+# Ignora variáveis de ambiente sensíveis
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Cache do sistema e do editor
+.DS_Store
+.vscode/
