@@ -1,17 +1,19 @@
-# Clippai Backend
+# 🎬 ClippAI - Backend
 
-Backend para processamento de vídeos com IA.
+Backend que processa vídeos e usa IA para gerar cortes inteligentes, thumbnails, legendas e upscale de qualidade.
 
-## Como rodar
+## 🚀 Funcionalidades:
+- 🔗 Baixar vídeos do YouTube, Twitch ou Kwai via link.
+- ✂️ Gerar cortes automáticos com IA (momentos mais virais).
+- 🖼️ Criar thumbnails automáticas com IA.
+- 🎧 Transcrever vídeos (gerar legenda automática).
+- 🔥 Fazer upscale de vídeos (melhorar resolução).
+- 🎥 Escolher formatos: 9:16, 16:9, 1:1.
 
-1. Clone o repositório.
-2. Crie um arquivo `.env` com suas variáveis.
-3. Rode `npm install`.
-4. Inicie com `npm start`.
+---
 
-API rodando na porta `10000` ou na porta do `.env`.
+## ⚙️ Como rodar localmente:
 
-## Tecnologias
-- Node.js
-- Express
-- Replicate API
+### ✅ 1. Instale as dependências:
+```bash
+npm install
